@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:musesnow/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:musesnow/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:musesnow/prow:hmacToken
+segmentWriteKey: vault:musesnow:segmentWriteKey
